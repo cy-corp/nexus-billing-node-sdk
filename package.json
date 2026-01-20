@@ -10,7 +10,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
-  }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
