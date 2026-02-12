@@ -12,7 +12,7 @@ export async function createNexusClient(
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        slug: `nota-facil-${userData.externalId}`,
+        slug: `${config.projectSlug}-${userData.externalId}`,
         name: userData.name || userData.email.split("@")[0],
         email: userData.email,
         externalId: userData.externalId,
